@@ -11,7 +11,12 @@
 #
 ## Take the makeVector & cachemean codes of the assignment as a key reference
 ## Created by: YuChou Chen (Joe Chen)
-##
+## =============================================================================
+## Usage of example:
+## c=rbind(c(1, -1/4), c(-1/4, 1))
+## m <- makeCacheMatrix(c)
+## cacheSolve(m)
+## cacheSolve(m) # will show "getting cached data" of the matrix
 ## =============================================================================
 ## Write a short comment describing this function
 #
